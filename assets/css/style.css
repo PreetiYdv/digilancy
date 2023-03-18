@@ -51,13 +51,12 @@
 
 
 nav ul li a {
-    font-family: "Work Sans";
+    font-family: "Work Sans"  sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
     line-height: 123.6%;
     text-align: center;
-    color: rgb(85, 84, 84);
+
 }
 
 .color_orange {
@@ -65,7 +64,7 @@ nav ul li a {
 }
 
 .logo {
-    font-family: "Work Sans";
+    font-family: "Work Sans"  sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 39.06px;
@@ -97,7 +96,7 @@ nav ul li a {
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     color: white;
-    font-family: "Work Sans";
+    font-family: "Work Sans"  sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -109,7 +108,7 @@ nav ul li a {
 
 .sec1head {
     max-width: 440px;
-    font-family: "Work Sans";
+    font-family: "Work Sans"  sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -120,7 +119,7 @@ nav ul li a {
 
 .sec1para {
     max-width: 493px;
-    font-family: "Work Sans";
+    font-family: "Work Sans"  sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -139,9 +138,11 @@ nav ul li a {
 .mb50 {
     margin-bottom: 50px;
 }
-.color_white{
+
+.color_white {
     color: #FFFFFF;
 }
+
 .sec2container {
     max-width: 1250px;
     margin-left: auto;
@@ -192,7 +193,7 @@ nav ul li a {
 }
 
 .sec2head {
-    font-family: "Work Sans";
+    font-family: "Work Sans"  sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 39.06px;
@@ -204,7 +205,7 @@ nav ul li a {
 }
 
 .boxtext {
-    font-family: "Work Sans";
+    font-family: "Work Sans"  sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -213,7 +214,7 @@ nav ul li a {
 }
 
 .sec2para {
-    font-family: "Work Sans";
+    font-family: "Work Sans" sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -327,7 +328,7 @@ nav ul li a {
 }
 
 .box1para {
-    font-family: "Work Sans";
+    font-family: "Work Sans" sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -415,7 +416,7 @@ nav ul li a {
 }
 
 .para_font {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -425,7 +426,7 @@ nav ul li a {
 }
 
 .head_font {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 39.06px;
@@ -435,7 +436,7 @@ nav ul li a {
 }
 
 .card_head {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -443,7 +444,7 @@ nav ul li a {
 }
 
 .card_para {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -468,7 +469,7 @@ nav ul li a {
 }
 
 .links li a {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -494,7 +495,7 @@ nav ul li a {
 }
 
 .para {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -515,7 +516,7 @@ nav ul li a {
 }
 
 .boxhead {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -541,7 +542,7 @@ nav ul li a {
 }
 
 .rectp {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -550,7 +551,7 @@ nav ul li a {
 }
 
 .rect_head {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -586,7 +587,7 @@ nav ul li a {
 }
 
 .p_font {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -595,7 +596,7 @@ nav ul li a {
 }
 
 .name_font {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -631,7 +632,7 @@ nav ul li a {
 }
 
 .contact_box_h2 {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -640,7 +641,7 @@ nav ul li a {
 }
 
 .contact_box_h1 {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 31.25px;
@@ -648,7 +649,7 @@ nav ul li a {
 }
 
 .contact_us_box li a {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -657,7 +658,7 @@ nav ul li a {
 }
 
 .toll {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -666,7 +667,7 @@ nav ul li a {
 }
 
 .location {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans' sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -675,7 +676,7 @@ nav ul li a {
 }
 
 .input_text {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -689,6 +690,7 @@ nav ul li a {
     background: #FFFFFF;
     border: none;
     padding: 18px;
+    width: 100%;
 }
 
 textarea {
@@ -712,7 +714,7 @@ textarea {
 }
 
 .form_head {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans'  sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 31.25px;
@@ -742,7 +744,7 @@ textarea {
 }
 
 .footerpara {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans' sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -751,26 +753,27 @@ textarea {
 }
 
 .footer_head {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans' sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 39.06px;
     line-height: 123.6%;
     color: #FFFFFF;
-    word-wrap: break-word;
 }
 
 .footerp {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150.6%;
     color: #FFFFFF;
 }
-.mb_11{
+
+.mb_11 {
     margin-bottom: 11px;
 }
+
 .cursor_pointer {
     cursor: pointer;
 }
@@ -780,7 +783,7 @@ textarea {
 }
 
 .footerlink {
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -796,7 +799,7 @@ textarea {
 
 .footer_logo {
     color: #FFFFFF;
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 39.06px;
@@ -816,11 +819,17 @@ textarea {
     transition: all 300ms linear;
 }
 
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .image_layer:hover::after {
     content: '';
     color: #FFFFFF;
     text-align: center;
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
@@ -843,14 +852,27 @@ textarea {
     display: none !important;
 }
 
+@media (min-width:900px) {
+    nav ul li a {
+        font-size: 20px;
+        color: rgb(85, 84, 84);
+    }
+
+    .col-xl-6 {
+        width: 50%;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+}
+
 @media (max-width: 900px) {
     .navbar {
         display: flex;
         flex-direction: column;
         position: absolute;
         font-size: 25px;
-        background-image: radial-gradient(white, orangered);
-        font-size: 60px;
+        background: orangered;
+        font-size: 65px;
         background-repeat: no-repeat;
         background-size: cover;
         position: fixed;
@@ -863,6 +885,10 @@ textarea {
         transition: all 300ms linear;
         justify-content: space-evenly;
         z-index: 1;
+    }
+
+    nav ul li a {
+        color: #ffff;
     }
 
     .shownav {
@@ -882,7 +908,7 @@ textarea {
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:800px) {
     .flex_md_col {
         flex-direction: column;
     }
@@ -900,9 +926,10 @@ textarea {
         padding-left: 12px;
         padding-right: 12px;
     }
+
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
 
     .col-4 {
         width: 33.33%;
@@ -929,11 +956,13 @@ textarea {
     }
 
 }
+
 @media (max-width:500px) {
-    .img_position{
+    .img_position {
         width: 117px;
     }
-    .pr_207{
+
+    .pr_207 {
         padding-right: 100px;
     }
 }

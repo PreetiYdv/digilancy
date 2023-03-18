@@ -22,12 +22,12 @@
             <div class="d-flex padding_navbar height100 align_center justify_spacebetween">
                 <h3 class="logo"><span class="color_orange">Digi</span>ency</h3>
                 <ul class="d-flex navbar justify_content align_center gap_navlist" id="navBar">
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#our-work">Our Work</a></li>
-                    <li><a href="#clients">Clients</a></li>
-                    <li><a href="#our-blogs">Our Blog</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#home" onclick="shownav()">Home</a></li>
+                    <li><a href="#about" onclick="shownav()">About Us</a></li>
+                    <li><a href="#our-work" onclick="shownav()">Our Work</a></li>
+                    <li><a href="#clients" onclick="shownav()">Clients</a></li>
+                    <li><a href="#our-blogs" onclick="shownav()">Our Blog</a></li>
+                    <li><a href="#contact" onclick="shownav()">Contact Us</a></li>
                 </ul>
                 <button onclick="darkMode()" class="darkmodebutton"><img src="./assets/images/Dark.png" alt=""></button>
                 <div class="mobile-navbar-btn">
@@ -39,7 +39,7 @@
     </header>
     <section class="bgcolor" id="home">
         <div class="container">
-            <div class="row pt_100 align_center justify_content">
+            <div class="row pt_100 align_center justify_space_evenly">
                 <div class="d-flex flex-direction">
                     <h3 class="sec1head pb_11">We Are The Best
                         <span class="color_orange">Digital Agency</span> for
@@ -154,7 +154,7 @@
             <h3 class="head_font">We Have<br>
                 <span class="color_orange"> Some Awesome </span> People
             </h3>
-            <div class="row jus_content gap pb_25">
+            <div class="row justify_content gap pb_25">
                 <div class="col">
                     <div class="card">
                         <img src="./assets/images/man_in_black_coat.png" alt="" class="w-100">
@@ -524,24 +524,27 @@
     <section>
         <div class="form_container">
             <div class="row justify_content">
-                <img src="./assets/images/contact-us-image.png" alt="" class="image_size w-100">
-                <div class="d-flex flex-direction">
-                    <h3 class="pb_18 form_head">Send Your Message To Us</h3>
-                    <form>
-                        <div class="input_box_gap d-flex flex-direction">
-                            <div class="d-flex input_box_gap flex_md_col">
-                                <input type="text" placeholder="Name" class="input_text input_box">
-                                <input type="email" placeholder="Email" class="input_text input_box">
+                <div class="col-12 col-xl-6">
+                    <img src="./assets/images/contact-us-image.png" alt="" class="image_size w-100">
+                </div>
+                <div class="col-12 col-xl-6">
+                    <div class="d-flex flex-direction">
+                        <h3 class="pb_18 form_head">Send Your Message To Us</h3>
+                        <form>
+                            <div class="input_box_gap d-flex flex-direction">
+                                <div class="d-flex input_box_gap flex_md_col">
+                                    <input type="text" placeholder="Name" class="input_text input_box">
+                                    <input type="email" placeholder="Email" class="input_text input_box">
+                                </div>
+                                <div class="d-flex input_box_gap flex_md_col">
+                                    <input type="number" placeholder="Mobile No" class="input_text input_box">
+                                    <input type="text" placeholder="Subject" class="input_text input_box">
+                                </div>
+                                <textarea placeholder="Send Massage" class="input_text" cols="30" rows="10"></textarea>
+                                <button class="send mb50">Send Massage</button>
                             </div>
-                            <div class="d-flex input_box_gap flex_md_col">
-                                <input type="number" placeholder="Mobile No" class="input_text input_box">
-                                <input type="text" placeholder="Subject" class="input_text input_box">
-                            </div>
-                            <textarea placeholder="Send Massage" class="input_text" cols="30" rows="10"></textarea>
-                            <button class="send mb50">Send Massage</button>
-                        </div>
-
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
             <iframe
@@ -603,7 +606,7 @@
                 <div class="col-8 mt_66">
                     <div class="row mb50">
                         <div class="col-4">
-                            <p class="footer_head  pb_25">Company</p>
+                            <p class="footer_head  pb_25 mr27">Company</p>
                             <p class="footerp mb_11 cursor_pointer">About Us</p>
                             <p class="footerp mb_11 cursor_pointer">Our Work</p>
                             <p class="footerp mb_11 cursor_pointer">Client</p>
